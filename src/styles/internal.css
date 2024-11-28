@@ -1,0 +1,46 @@
+/*importando style reset*/
+@import url("../styles/reset.css");
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+}
+
+.s-wrapper .s-left-column {
+    width: 10rem;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-wrapper .s-main-content {
+    height: 100%;
+    width: 100%;
+    background-color: #808080;
+    padding-left: 3rem;
+}
+
+.navigator {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+}
+
+.navigator ul li {
+    margin: 6rem 0;
+}
+
+.navigator ul li:first-child {
+    margin-top: 0;
+}
+
+.navigator ul li:last-child {
+    margin-bottom: 0;
+}
