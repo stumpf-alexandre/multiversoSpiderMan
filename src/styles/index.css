@@ -1,5 +1,5 @@
 /*importando style reset*/
-@import url("../styles/reset.css");
+@import url("./reset.css");
 
 body {
     background-color: var(--primary-color);
