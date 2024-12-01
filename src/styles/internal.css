@@ -10,6 +10,9 @@
 /*import style link button*/
 @import url("./components/_link-button.css");
 
+/*import style gallery*/
+@import url("./components/_gallery.css");
+
 .s-wrapper {
     display: flex;
     height: 100vh;
@@ -50,7 +53,7 @@
 }
 
 .s-wrapper .s-main-content .s-logo img {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 0;
     margin-bottom: 3rem;
 }
@@ -79,4 +82,19 @@
 .s-wrapper .s-main-content .s-links ul {
     display: flex;
     flex-direction: row;
+}
+
+.s-spaiderman-01-01 {
+    background-image: url("../assets/images/spiderman-tobey/movie-01/background.png");
+    background-size: cover;
+}
+
+.s-spaiderman-01-02 {
+    background-image: url("../assets/images/spiderman-tobey/movie-02/background.png");
+    background-size: cover;
+}
+
+.s-spaiderman-01-03 {
+    background-image: url("../assets/images/spiderman-tobey/movie-03/background.png");
+    background-size: cover;
 }
